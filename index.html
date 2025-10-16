@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Joke Battle</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <main class="container">
+      <h1>JOKE BATTLE</h1>
+      <h3>
+        Two dad jokes face off. Read both jokes and vote for the one you think
+        is funnier!
+      </h3>
+
+      <section class="leaderboard">
+        <h2>Champion🏆</h2>
+        <div class="joke-text" id="champion-text">Loading...</div>
+        <div class="joke-score" id="champion-score">
+          Streak: <br />
+          <strong>0</strong>
+        </div>
+      </section>
+
+      <section class="joke-grid">
+        <div class="joke-card" id="left-joke">
+          <h2>CHAMPION</h2>
+          <div class="joke-text">Loading joke..</div>
+          <button class="vote-btn" id="vote-left">Vote</button>
+        </div>
+
+        <div class="joke-card" id="right-joke">
+          <h2>CHALLENGER</h2>
+          <div class="joke-text">Loading joke..</div>
+          <button class="vote-btn" id="vote-right">Vote</button>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
